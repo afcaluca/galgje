@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hangman</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="titel-container">
+        <h1>Galgje</h1>
+    </div>
+
+    <div id="h3-container">
+        <h3>Welkom bij Luca's rare versie</h3>
+    </div>
+
+    <div id="uitleg-container">
+        <p>Je moet een woord raden, als je het woord raad win je, als je het woord niet raad verlies je. Je hebt 10 pogingen.</p>
+    </div>
+
+    <div id="tip-container">
+        <p>pro gamer tip: Het woord is een naam van iemand die we kennen!</p>
+    </div>
+    
+    <div id="word-container">
+        <!-- Hier wordt het woord weergegeven -->
+    </div>
+    
+    <div id="guesses-container">
+        <!-- Hier worden de gemaakte gokken weergegeven -->
+    </div>
+
+    <div id="log">
+
+    </div>
+    
+    <div id="input-container">
+        <input type="text" id="guess-input" placeholder="Raad een letter ofzo">
+        <button onclick="guessLetter()" id="guess-button">yuh</button>
+        
+    </div>
+
+    <p id="watjeookwilt"></p>
+
+    <video autoplay muted loop id="myVideo">
+        <source src="dark.mp4" type="video/mp4">
+      </video>
+    
+    <script src="script.js"></script>
+</body>
+</html>

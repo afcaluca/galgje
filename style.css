@@ -1,0 +1,54 @@
+#titel-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#h3-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#input-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+  }
+
+  #uitleg-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #tip-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+  }
+
+  #log {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+
+  }
+
+  #watjeookwilt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+  }
